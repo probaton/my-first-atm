@@ -1,0 +1,27 @@
+.atm-card-reader {
+  position: absolute;
+  background-color: #b7b7b7;
+  right: 0.2rem;
+  top: 1.5rem;
+  width: 4.5rem;
+  height: 3rem;
+  border-radius: 4rem;
+}
+
+.atm-card-slot {
+  position: absolute;
+  right: 0.75rem;
+  top: 1.5rem;
+  width: 3rem;
+  border-bottom: 0.2rem solid black;
+}
+
+.atm-card {
+  position: absolute;
+  right: 0.875rem;
+  top: 1.7rem;
+  width: 2.8rem;
+  height: 1rem;
+  background-color: #17218c;
+  border-radius: 0 0 0.4rem 0.4rem;
+}

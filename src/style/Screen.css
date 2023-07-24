@@ -1,0 +1,51 @@
+.atm-screen-with-buttons,
+.atm-screen-no-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  color: #4B4C4D;
+  background: radial-gradient(#98DAFF, #6b97bd);
+  border-radius: 0.5rem;
+  font-family: monospace;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.atm-screen-no-buttons {
+  justify-content: center;
+}
+
+.atm-screen-with-buttons {
+  justify-content: flex-end;
+}
+
+.atm-screen-title {
+  white-space: pre-wrap;
+  text-align: center;
+}
+
+.atm-screen-button-container {
+  display: flex;
+  width: 100%;
+  height: 80%;
+}
+
+.atm-screen-buttons-right,
+.atm-screen-buttons-left {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  margin: 0 1rem 0 1rem;
+}
+
+.atm-screen-buttons-left {
+  margin-left: auto;  
+}
+
+.atm-screen-button {
+  line-height: 2.5rem;
+  margin-bottom: 0.8rem;
+}

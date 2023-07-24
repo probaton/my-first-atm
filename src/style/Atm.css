@@ -1,0 +1,76 @@
+.atm {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin-top: 8rem;
+  width: 50rem;
+  background-color: #C8C9C3;
+  border-radius: 3rem 3rem 0 0;
+}
+
+.atm-header {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin: 2rem 0 4rem 0;
+  width: 40rem;
+  height: 10rem;
+  background-color: #f5f7ed;
+  border-radius: 2rem;
+  font-family: fantasy;
+}
+
+.atm-title {
+  font-size: 5rem;
+}
+
+.atm-subtitle {
+  font-size: 2rem;
+}
+
+.atm-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40rem;
+  height: 40rem;
+  background-color: #f5f7ed;
+  border-radius: 2rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.atm-interface {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  background-color: #f5f7ed;
+  border-radius: 2rem;
+}
+
+.atm-buttons {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.atm-input-output {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+}
+
+.atm-money-tray {
+  background-color: #b7b7b7;
+  width: 12rem;
+  height: 6rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  border-bottom: 0.4rem solid black;
+}

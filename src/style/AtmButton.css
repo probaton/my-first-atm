@@ -1,0 +1,22 @@
+.atm-button-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.8rem;
+}
+
+.atm-button {
+  width: 5rem;
+  height: 2.5rem;
+  background-color: #72726f;
+  border-radius: 0.5rem;
+}
+
+.atm-button-guide {
+  flex-grow: 1;
+  align-self: center;
+  border-bottom: 0.2rem solid #afafaf;
+}
+
+.flip-row {
+  flex-direction: row-reverse;
+}

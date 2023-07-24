@@ -1,0 +1,6 @@
+.atm-container {
+  display: grid;
+  justify-content: center;
+  background-image: url('http://localhost:3000/AtmBackdrop.jpg');
+  height: 100vh;
+}

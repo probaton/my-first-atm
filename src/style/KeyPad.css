@@ -1,0 +1,21 @@
+.atm-key-pad {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #b7b7b7;
+  width: 8rem;
+  height: 9rem;
+  border-radius: 0.3rem;
+}
+
+.atm-key-pad-row {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.atm-key-pad-button {
+  border: 0.1rem solid black;
+  width: 1.9rem;
+  height: 1.9rem;  
+}
